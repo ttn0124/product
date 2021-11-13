@@ -1,5 +1,5 @@
 header{
-    height: 300px;
+    height: 250px;
     background-color: #faede3;
     color: #707070;
 
@@ -8,31 +8,19 @@ header{
         justify-content: space-between;
     }
     h1{
-        padding: 8% 0 10% 25%;
+        padding:50px 50px 50px 150px;
         font-size: 4rem;
     }
     p{
-        padding: 20px;
         font-size: 2rem;
         font-weight: bolder;
+        padding: 10px 10px;
     }
     form{
-        padding-left: 10%;
-        font-size: 2.5rem;
-        .search{
-            border-radius: 10px;
-            color: #707070;
-            background-color: #fff;
-            padding:0;
-        }
-        .search::before{
-            content: '';
-            background-image: url(../image/search.png);
-            width: 20px;
-            height: 20px;
-        }
+        height: 50px;
+        
         .submit{
-            margin-left: 5px;
+            margin-left:370px;
             padding: 10px 20px;
             border: 1px solid;
             border-radius: 10px;
