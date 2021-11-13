@@ -64,6 +64,20 @@ header form .submit {
   font-size: 1.9rem;
 }
 
+.search-box {
+  display: inline-block;
+  position: relative;
+}
+
+.search-box::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(../img/search.png);
+  display: inline-block;
+  position: absolute;
+}
+
 .search {
   border: 1px solid #707070;
 }
